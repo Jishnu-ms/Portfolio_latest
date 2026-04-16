@@ -69,7 +69,7 @@ const Contact = () => {
                   // env key
                   formData.append(
                     "access_key",
-                    import.meta.env.WEB3FORMS_KEY
+                    import.meta.env.VITE_WEB3FORMS_KEY
                   );
 
                   // optional (recommended)
